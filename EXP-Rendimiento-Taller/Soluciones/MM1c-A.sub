@@ -1,0 +1,17 @@
+Universe = vanilla 
+Executable = MM1c 
+Log = MM1c.$(Process).log 
+Output = MM1c.$(Process).out 
+Error = MM1c.$(Process).error 
+Notification = error 
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+ 
+Arguments = 10 1 10 
+Queue 
+Arguments = 100 2 100 
+Queue 
+Arguments = 1000 3 1000 
+Queue 
+Arguments = 10000 4 10000 
+Queue

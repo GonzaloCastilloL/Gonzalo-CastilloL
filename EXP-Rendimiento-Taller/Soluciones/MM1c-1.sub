@@ -1,0 +1,15 @@
+Universe = vanilla 
+Executable = MM1c 
+Log = MM1-1.log 
+Output = MM1-1.out 
+Error = MM1-1.error 
+Notification = error 
+should_transfer_files = YES 
+Arguments = 10 1 0 
+Queue 
+Arguments = 100 1 0 
+Queue 
+Arguments = 1000 1 0 
+Queue 
+Arguments = 1000 1 0 
+Queue

@@ -1,0 +1,24 @@
+000 (9685.003.000) 11/13 21:28:09 Job submitted from host: <10.34.1.2:9618?addrs=10.34.1.2-9618+[--1]-9618&noUDP&sock=476363_49d3_3>
+...
+001 (9685.003.000) 11/13 21:28:21 Job executing on host: <10.34.1.15:9618?addrs=10.34.1.15-9618+[--1]-9618&noUDP&sock=1367668_1198_3>
+...
+006 (9685.003.000) 11/13 21:28:21 Image size of job updated: 12
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (9685.003.000) 11/13 21:28:21 Job terminated.
+	(0) Abnormal termination (signal 11)
+	(0) No core file
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	10885  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	10885  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       20       12   6196814
+	   Memory (MB)          :        0        1       267
+...
